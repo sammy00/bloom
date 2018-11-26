@@ -1,9 +1,7 @@
 package bloom
 
-type UpdateFlag uint8
-
 const (
-	None         UpdateFlag = 0
-	All          UpdateFlag = 1
-	P2PubKeyOnly UpdateFlag = 2
+	MaxFilterSize = 36000
+	MaxHashFuncs  = 50
+	//C             = 0xfba4c795
 )
